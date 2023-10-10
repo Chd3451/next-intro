@@ -1,13 +1,12 @@
 {
-  "name": "next-intro",
+  "name": "next-intro1",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "dev": "npm run open-browser && next dev",
-    "open-browser": "start http://localhost:3000"
+    "lint": "next lint"
   },
   "dependencies": {
     "react": "^18",
