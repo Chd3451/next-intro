@@ -29,11 +29,24 @@ import { JestIcon } from "./components/icons/JestIcon";
 import { TestingLibraryIcon } from "./components/icons/TestingLibraryIcon";
 import { VitestIcon } from "./components/icons/VitestIcon";
 
+
 export default function Home() {
   return (
     <div className="bg-yellow-400 min-h-screen flex flex-col">
-      <header className="flex justify-between items-center w-full mx-auto my-4 max-w-4xl">
+      <header className="flex justify-between items-center w-full mx-auto my-4 max-w-6xl">
         <h1 className="text-black text-xl font-bold">🗳️Vota.dev</h1>
+        <div className="flex justify-between items-center">
+          <button className="bg-white border-2 border-white rounded-lg mx-2">
+          <a href="/#" className="py-3 text-base font-semibold px-7 text-dark hover:opacity-60">
+                Sign In
+              </a>
+          </button>
+          <button className="bg-black border-2 border-black rounded-lg mx-2">
+            <a href="/#" className="py-3 text-base font-semibold text-white rounded-lg  px-7 hover:opacity-60" >
+                Sign Up
+            </a>
+          </button>  
+        </div>
       </header>
       <section className="mt-48 max-w-[1000px] mx-auto">
         <h1 className="max-w-5xl mx-auto text-5xl font-extrabold text-center text-black md:text-8xl">
@@ -46,7 +59,7 @@ export default function Home() {
         <div className="max-w-4xl p-10 mx-auto my-20 bg-white border-2 border-black rounded-lg">
           <SecondaryTitle title="Mejor nueva funcionalidad ECMAScript" />
 
-          <div className="text-2xl font-semibold text-gray-700 mb-20">
+          <div className="text-2xl text-center font-semibold text-gray-700 mb-20">
             Nullish Coalescing Operator
           </div>
 
