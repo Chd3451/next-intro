@@ -1,3 +1,6 @@
+import { SecondaryTitle } from "./components/SecondaryTitle";
+import { Button } from "./components/Button";
+import { ReactIcon } from "./icons/ReactIcon";
 
 export default function Home() {
   return (
@@ -8,20 +11,19 @@ export default function Home() {
         </h1>
       </header>
       <section className='mt-48 max-w-[1000px] mx-auto'>
-        <h1 className='text-black text-center font-extrabold text-8xl mb-10'>
+        <h1 className='max-w-5xl mx-auto text-5xl font-extrabold text-center text-black md:text-8xl'>
           Vota los mejores del desarrollo web
         </h1>
-        <p className='max-w-[600px] mx-auto text-center text-2xl text-black opacity-80'>
+        <p className='max-w-lg mx-auto mt-10 text-2xl text-center text-black opacity-70'>
           Decide qué stack, tecnologías y frameworks han sido los mejores del año. ¡Cada voto cuenta!
         </p>
-        <div className='bg-white h-screen max-w-3xl p-10 mx-auto mt-20 rounded-lg'>
-          <h2>Mejor framework</h2>
-          <ul>
-            <li>React</li>
-            <li>Wue</li>
-            <li>Angular</li>
-
-          </ul>
+        <div className='max-w-4xl p-10 mx-auto my-20 bg-white border-2 border-black rounded-lg'>
+          <SecondaryTitle title='Mejor nueva funcionalidad ECMAScript' />
+          <div className="text-2xl font-semibold text-gray-700 mb-20">Nullish Coalescing Operator</div>
+          <SecondaryTitle title='Mejor biblioteca UI' />
+          <Button>
+            <ReactIcon />
+          </Button>
         </div>
       </section>
     </div>
