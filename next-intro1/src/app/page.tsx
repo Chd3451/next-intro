@@ -1,13 +1,19 @@
-import { Button } from "./components/Button";
 import { Header } from "./components/Header";
 import { SecondaryTitle } from "./components/SecondaryTitle";
 import { VoteSection } from "./components/VoteSection";
 
-import { extraSection, firstSection, secondSection, thirdSection, fourthSection, fifthSection, sixthSection, seventhSection } from "@/sectionsData";
-
+import {
+  extraSection,
+  firstSection,
+  secondSection,
+  thirdSection,
+  fourthSection,
+  fifthSection,
+  sixthSection,
+  seventhSection,
+} from "@/sectionsData";
 
 export default function Home() {
-  
   return (
     <div className="bg-yellow-400 min-h-screen flex flex-col">
       <Header />
@@ -21,13 +27,12 @@ export default function Home() {
         </p>
         <div className="max-w-4xl p-10 mx-auto my-20 bg-white border-2 border-black rounded-lg">
           <SecondaryTitle title="Mejor nueva funcionalidad ECMAScript" />
-
           <VoteSection section={extraSection} />
 
           <SecondaryTitle title="Mejor biblioteca UI" />
           <VoteSection section={firstSection} />
 
-          <SecondaryTitle title="Mejor framework Backend"/>
+          <SecondaryTitle title="Mejor framework Backend" />
           <VoteSection section={secondSection} />
 
           <SecondaryTitle title="Mejor framework FullStack" />
@@ -44,7 +49,6 @@ export default function Home() {
 
           <SecondaryTitle title="Mejor herramienta de testing" />
           <VoteSection section={seventhSection} />
-
         </div>
       </section>
     </div>

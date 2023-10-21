@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Button = ({ children, buttonLabel }) => {
+export const VoteButton = ({ children, buttonLabel }) => {
   return (
     <button className="pointer group">
       <div className="flex flex-row items-center gap-2 px-8 py-3 border border-gray-200 rounded-3xl ">
