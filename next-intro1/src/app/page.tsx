@@ -1,10 +1,5 @@
 import { SecondaryTitle } from "./components/SecondaryTitle";
 import { Button } from "./components/Button";
-import { ReactIcon } from "./components/icons/ReactIcon";
-import { VueIcon } from "./components/icons/VueIcon";
-import { AngularIcon } from "./components/icons/AngularIcon";
-import { SvelteIcon } from "./components/icons/SvelteIcon";
-import { LitIcon } from "./components/icons/LitIcon";
 import { NestIcon } from "./components/icons/NestIcon";
 import { ExpressIcon } from "./components/icons/ExpressIcon";
 import { FastifyIcon } from "./components/icons/FastifyIcon";
@@ -28,9 +23,13 @@ import { EmotionIcon } from "./components/icons/EmotionIcon";
 import { JestIcon } from "./components/icons/JestIcon";
 import { TestingLibraryIcon } from "./components/icons/TestingLibraryIcon";
 import { VitestIcon } from "./components/icons/VitestIcon";
+import { VoteSection } from "./components/VoteSection";
+
+import { firstSection } from "@/sectionsData";
 
 
 export default function Home() {
+  
   return (
     <div className="bg-yellow-400 min-h-screen flex flex-col">
       <header className="flex justify-between items-center w-full mx-auto my-4 max-w-6xl">
@@ -64,24 +63,7 @@ export default function Home() {
           </div>
 
           <SecondaryTitle title="Mejor biblioteca UI" />
-
-          <ul className="grid grid-cols-1 gap-4 mb-12 md:grid-cols-4">
-            <Button buttonLabel='React'>
-              <ReactIcon />
-            </Button>
-            <Button buttonLabel='Vue.js'>
-              <VueIcon />
-            </Button>
-            <Button buttonLabel='Angular'>
-              <AngularIcon />
-            </Button>
-            <Button buttonLabel='Svelte'>
-              <SvelteIcon />
-            </Button>
-            <Button buttonLabel='Lit'>
-              <LitIcon />
-            </Button>
-          </ul>
+          <VoteSection section={firstSection} />
 
           <SecondaryTitle title="Mejor biblioteca UI" />
 
