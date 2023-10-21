@@ -11,6 +11,10 @@ import {
   fifthSection,
   sixthSection,
   seventhSection,
+  EighthSection,
+  ninthSection,
+  tenthSection,
+  eleventhSection, 
 } from "@/sectionsData";
 
 export default function Home() {
@@ -49,6 +53,18 @@ export default function Home() {
 
           <SecondaryTitle title="Mejor herramienta de testing" />
           <VoteSection section={seventhSection} />
+
+          <SecondaryTitle title="Mejor test E2E" />
+          <VoteSection section={EighthSection} />
+
+          <SecondaryTitle title="Mejor BaaS (Backend as a Service)" />
+          <VoteSection section={ninthSection} />
+
+          <SecondaryTitle title="Mejor catálogo de componentes" />
+          <VoteSection section={tenthSection} />
+
+          <SecondaryTitle title="Mejor sitio para hosting de tu proyecto web" />
+          <VoteSection section={eleventhSection} />
         </div>
       </section>
     </div>

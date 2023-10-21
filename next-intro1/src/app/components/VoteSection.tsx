@@ -1,16 +1,7 @@
 import React from "react";
 import { VoteButton } from "./VoteButton";
 
-interface Button {
-  name: string;
-  element: React.ReactNode;
-}
-
-interface VoteSectionProps {
-  section: Button[];
-}
-
-export const VoteSection: React.FC<VoteSectionProps> = ({ section }) => {
+export const VoteSection = ({ section }) => {
   return (
     <ul className="flex flex-wrap gap-4 m-auto mb-12 place-content-center">
       {section.map((button) => {
