@@ -1,6 +1,7 @@
 import { Header } from "./components/Header";
 import { SecondaryTitle } from "./components/SecondaryTitle";
 import { VoteSection } from "./components/VoteSection";
+import { Footer } from "./components/Footer";
 
 import {
   extraSection,
@@ -16,6 +17,7 @@ import {
   tenthSection,
   eleventhSection, 
 } from "@/sectionsData";
+
 
 export default function Home() {
   return (
@@ -67,6 +69,7 @@ export default function Home() {
           <VoteSection section={eleventhSection} />
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
