@@ -27,7 +27,28 @@ import { JestIcon } from "./app/components/icons/JestIcon";
 import { TestingLibraryIcon } from "./app/components/icons/TestingLibraryIcon";
 import { VitestIcon } from "./app/components/icons/VitestIcon";
 import { ECMAScriptTextIcon } from "./app/components/icons/ECMAScriptTextIcon";
+import { CypressIcon } from "./app/components/icons/CypressIcon";
+import {PlaywrightIcon} from "./app/components/icons/PlaywrightIcon"
+import {PuppeteerIcon} from "./app/components/icons/PuppeteerIcon"
 import { VoteSection } from "./app/components/VoteSection";
+import {FirebaseIcon} from "./app/components/icons/FirebaseIcon"
+import {SupabaseIcon} from "./app/components/icons/SupabaseIcon"
+import {AirtableIcon} from "./app/components/icons/AirtableIcon"
+import {AmplifyIcon} from "./app/components/icons/AmplifyIcon"
+import {MongoIcon} from "./app/components/icons/MongoIcon"
+import { ChakraUiIcon } from "./app/components/icons/ChakraUiIcon";
+import { MaterialUiIcon } from "./app/components/icons/MaterialUiIcon";
+import { NextUiIcon } from "./app/components/icons/NextUiIcon";
+import { AntDesingIcon } from "./app/components/icons/AntDesingIcon";
+import { DaisyUiIcon } from "./app/components/icons/DaisyUiIcon";
+import { ReactSemanticIcon } from "./app/components/icons/ReactSemanticIcon";
+import { VerselIcon } from "./VerselIcon";
+import { NetlifyIcon } from "./app/components/icons/NetlifyIcon";
+import { RenderIcon } from "./app/components/icons/RenderIcon";
+import { AWSIcon } from "./app/components/icons/AWSIcon";
+import { AzureIcon } from "./app/components/icons/AzureIcon";
+import { GCloudIcon } from "./app/components/icons/GCloudIcon";
+
 
 export const firstSection = [
   {
@@ -162,9 +183,102 @@ export const seventhSection = [
   }
 ];
 
+export const EighthSection = [
+   {
+    name: "Cypress",
+    element: <CypressIcon />,
+   },
+   {
+    name: "Playwright",
+    element: <PlaywrightIcon />,
+   },
+   {
+    name: "Puppeteer",
+    element: <PuppeteerIcon />,
+   }
+];
+export const ninthSection = [
+  {
+    name: "Firebase",
+    element: <FirebaseIcon />,
+  },
+  {
+    name: "Supabase",
+    element: <SupabaseIcon />,
+  },
+  {
+    name: "Airtable",
+    element: <AirtableIcon />,
+  },
+  {
+    name: "Amplify",
+    element: <AmplifyIcon />,
+  },
+  {
+    name: "Mongo",
+    element: <MongoIcon />,
+  },
+
+];
+export const tenthSection = [
+  {
+    name: "Chakra UI",
+    element: <ChakraUiIcon />
+  },
+  {
+    name: "Material UI",
+    element: <MaterialUiIcon />
+  },
+  {
+    name: "Next UI",
+    element: <NextUiIcon />
+  },
+  {
+    name: "Ant Design",
+    element: <AntDesingIcon />
+  },
+  {
+    name: "Daisy UI",
+    element: <DaisyUiIcon />
+  },
+  {
+    name: "React Semantic UI",
+    element: <ReactSemanticIcon />
+  },
+]
+
+export const eleventhSection = [
+  {
+    name: "Versel",
+    element: <VerselIcon />
+  },
+  {
+    name: "Netlify",
+    element: <NetlifyIcon />
+  },
+  {
+    name: "Render",
+    element: <RenderIcon />
+  },
+  {
+    name: "AWS",
+    element: <AWSIcon />
+  },
+  {
+    name: "Azure",
+    element: <AzureIcon />
+    
+  },
+  {
+    name: "Google Cloud",
+    element: <GCloudIcon />
+  },
+]
+
 export const extraSection = [
   {
     name: "Nullish Coalescing Operator",
     element: <ECMAScriptTextIcon />,
   }
+  
 ];

@@ -14,3 +14,4 @@ export const VoteSection = ({ section }) => {
     </ul>
   );
 };
+
