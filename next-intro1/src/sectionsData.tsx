@@ -26,6 +26,7 @@ import { EmotionIcon } from "./app/components/icons/EmotionIcon";
 import { JestIcon } from "./app/components/icons/JestIcon";
 import { TestingLibraryIcon } from "./app/components/icons/TestingLibraryIcon";
 import { VitestIcon } from "./app/components/icons/VitestIcon";
+import { ECMAScriptTextIcon } from "./app/components/icons/ECMAScriptTextIcon";
 import { VoteSection } from "./app/components/VoteSection";
 
 export const firstSection = [
@@ -49,4 +50,121 @@ export const firstSection = [
     name: "Lit",
     element: <LitIcon />,
   },
+];
+
+export const secondSection = [
+  {
+    name: "Nest.js",
+    element: <NestIcon />,
+  },
+  {
+    name: "Express",
+    element: <ExpressIcon />,
+  },
+  {
+    name: "Fastify",
+    element: <FastifyIcon />,
+  },
+  {
+    name: "Hapi",
+    element: <HapiIcon />,
+  }
+];
+
+export const thirdSection = [
+  {
+    name: "Next.js",
+    element: <NextIcon />,
+  },
+  {
+    name: "Nuxt",
+    element: <NuxtIcon />,
+  },
+  {
+    name: "SvelteKit",
+    element: <SvelteKitIcon />,
+  },
+  {
+    name: "Remix",
+    element: <RemixIcon />,
+  },
+  {
+    name: "Astro",
+    element: <AstroIcon />,
+  },
+  {
+    name: "BlitzJS",
+    element: <BlitzJSIcon />,
+  }
+];
+
+export const fourthSection = [
+  {
+    name: "Webpack",
+    element: <WebpackIcon />,
+  },
+  {
+    name: "Rollup",
+    element: <RollupIcon />,
+  },
+  {
+    name: "Parcel",
+    element: <ParcelIcon />,
+  },
+  {
+    name: "EsBuild",
+    element: <EsBuildIcon />,
+  },
+  {
+    name: "Vite",
+    element: <ViteIcon />,
+  }
+];
+
+export const fifthSection = [
+  {
+    name: "Node.js",
+    element: <NodeIcon />,
+  },
+  {
+    name: "Deno",
+    element: <DenoIcon />,
+  }
+];
+
+export const sixthSection = [
+  {
+    name: "Stitches",
+    element: <StitchesIcon />,
+  },
+  {
+    name: "Styled Components",
+    element: <StyledComponentsIcon />,
+  },
+  {
+    name: "Emotion",
+    element: <EmotionIcon />,
+  }
+];
+
+export const seventhSection = [
+  {
+    name: "Jest",
+    element: <JestIcon />,
+  },
+  {
+    name: "Testing Library",
+    element: <TestingLibraryIcon />,
+  },
+  {
+    name: "Vitest",
+    element: <VitestIcon />,
+  }
+];
+
+export const extraSection = [
+  {
+    name: "Nullish Coalescing Operator",
+    element: <ECMAScriptTextIcon />,
+  }
 ];
