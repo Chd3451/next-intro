@@ -1,6 +1,6 @@
 import React from "react";
 
-export const FooterLink = ({ linkText }) => {
+export const FooterLink = (props: { linkText: string }) => {
   return (
     <>
       <span>&bull;</span>
@@ -10,7 +10,7 @@ export const FooterLink = ({ linkText }) => {
         rel="nofollow noreferrer"
         target="_blank"
       >
-        {linkText}
+        {props.linkText}
       </a>
     </>
   );

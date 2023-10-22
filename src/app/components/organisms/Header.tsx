@@ -1,5 +1,4 @@
 import React from "react";
-import { NavButton } from "../atoms/NavButton";
 import { HeaderContent } from "../molecules/HeaderContent";
 
 export const Header = () => {

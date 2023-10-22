@@ -5,7 +5,7 @@ export const AmplifyIcon = () => {
     <svg viewBox="0 0 256 191" preserveAspectRatio="xMidYMid">
         <defs>
             <linearGradient x1="100%" y1="22.1718317%" x2="0%" y2="77.8281683%" id="Amplify-linearGradient-1">
-                <stop stop-color="#FF9900" offset="0%"></stop><stop stop-color="#FFC300" offset="100%"></stop>
+                <stop stopColor="#FF9900" offset="0%"></stop><stop stopColor="#FFC300" offset="100%"></stop>
             </linearGradient>
         </defs>
         <g>
