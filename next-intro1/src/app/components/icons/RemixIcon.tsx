@@ -6,8 +6,8 @@ export const RemixIcon = () => {
       <path fill="#212121" d="M0 0h800v800H0z"></path>
       <g filter="url(#a)" fill="#E8F2FF">
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M587.95 527.77c4.25 54.65 4.25 80.27 4.25 108.23H465.76c0-6.1.1-11.66.22-17.31.34-17.57.7-35.88-2.15-72.87-3.76-54.15-27.08-66.19-69.96-66.19H195v-98.52h204.89c54.16 0 81.24-16.48 81.24-60.1 0-38.36-27.08-61.6-81.24-61.6H195V163h227.46C545.06 163 606 220.91 606 313.42c0 69.2-42.88 114.32-100.8 121.84 48.9 9.78 77.48 37.6 82.75 92.5Z"
         ></path>
         <path d="M195 636v-73.45h133.7c22.33 0 27.18 16.57 27.18 26.44V636H195Z"></path>
@@ -20,9 +20,9 @@ export const RemixIcon = () => {
           width="539"
           height="601"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+          <feFlood clipRule="0" result="BackgroundImageFix"></feFlood>
           <feColorMatrix
             in="SourceAlpha"
             values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
