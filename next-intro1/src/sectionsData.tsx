@@ -1,54 +1,53 @@
-import { ReactIcon } from "./app/components/icons/ReactIcon";
-import { VueIcon } from "./app/components/icons/VueIcon";
-import { AngularIcon } from "./app/components/icons/AngularIcon";
-import { SvelteIcon } from "./app/components/icons/SvelteIcon";
-import { LitIcon } from "./app/components/icons/LitIcon";
-import { NestIcon } from "./app/components/icons/NestIcon";
-import { ExpressIcon } from "./app/components/icons/ExpressIcon";
-import { FastifyIcon } from "./app/components/icons/FastifyIcon";
-import { HapiIcon } from "./app/components/icons/HapiIcon";
-import { NextIcon } from "./app/components/icons/NextIcon";
-import { NuxtIcon } from "./app/components/icons/NuxtIcon";
-import { SvelteKitIcon } from "./app/components/icons/SvelteKitIcon";
-import { RemixIcon } from "./app/components/icons/RemixIcon";
-import { AstroIcon } from "./app/components/icons/AstroIcon";
-import { BlitzJSIcon } from "./app/components/icons/BlitzJSIcon";
-import { WebpackIcon } from "./app/components/icons/WebpackIcon";
-import { ParcelIcon } from "./app/components/icons/ParcelIcon";
-import { RollupIcon } from "./app/components/icons/RollupIcon";
-import { EsBuildIcon } from "./app/components/icons/EsBuildIcon";
-import { ViteIcon } from "./app/components/icons/ViteIcon";
-import { NodeIcon } from "./app/components/icons/NodeIcon";
-import { DenoIcon } from "./app/components/icons/DenoIcon";
-import { StitchesIcon } from "./app/components/icons/StitchesIcon";
-import { StyledComponentsIcon } from "./app/components/icons/StyledComponentsIcon";
-import { EmotionIcon } from "./app/components/icons/EmotionIcon";
-import { JestIcon } from "./app/components/icons/JestIcon";
-import { TestingLibraryIcon } from "./app/components/icons/TestingLibraryIcon";
-import { VitestIcon } from "./app/components/icons/VitestIcon";
-import { ECMAScriptTextIcon } from "./app/components/icons/ECMAScriptTextIcon";
-import { CypressIcon } from "./app/components/icons/CypressIcon";
-import {PlaywrightIcon} from "./app/components/icons/PlaywrightIcon"
-import {PuppeteerIcon} from "./app/components/icons/PuppeteerIcon"
-import { VoteSection } from "./app/components/VoteSection";
-import {FirebaseIcon} from "./app/components/icons/FirebaseIcon"
-import {SupabaseIcon} from "./app/components/icons/SupabaseIcon"
-import {AirtableIcon} from "./app/components/icons/AirtableIcon"
-import {AmplifyIcon} from "./app/components/icons/AmplifyIcon"
-import {MongoIcon} from "./app/components/icons/MongoIcon"
-import { ChakraUiIcon } from "./app/components/icons/ChakraUiIcon";
-import { MaterialUiIcon } from "./app/components/icons/MaterialUiIcon";
-import { NextUiIcon } from "./app/components/icons/NextUiIcon";
-import { AntDesingIcon } from "./app/components/icons/AntDesingIcon";
-import { DaisyUiIcon } from "./app/components/icons/DaisyUiIcon";
-import { ReactSemanticIcon } from "./app/components/icons/ReactSemanticIcon";
-import { VerselIcon } from "./VerselIcon";
-import { NetlifyIcon } from "./app/components/icons/NetlifyIcon";
-import { RenderIcon } from "./app/components/icons/RenderIcon";
-import { AWSIcon } from "./app/components/icons/AWSIcon";
-import { AzureIcon } from "./app/components/icons/AzureIcon";
-import { GCloudIcon } from "./app/components/icons/GCloudIcon";
-
+import { ReactIcon } from "./app/components/atoms/icons/ReactIcon";
+import { VueIcon } from "./app/components/atoms/icons/VueIcon";
+import { AngularIcon } from "./app/components/atoms/icons/AngularIcon";
+import { SvelteIcon } from "./app/components/atoms/icons/SvelteIcon";
+import { LitIcon } from "./app/components/atoms/icons/LitIcon";
+import { NestIcon } from "./app/components/atoms/icons/NestIcon";
+import { ExpressIcon } from "./app/components/atoms/icons/ExpressIcon";
+import { FastifyIcon } from "./app/components/atoms/icons/FastifyIcon";
+import { HapiIcon } from "./app/components/atoms/icons/HapiIcon";
+import { NextIcon } from "./app/components/atoms/icons/NextIcon";
+import { NuxtIcon } from "./app/components/atoms/icons/NuxtIcon";
+import { SvelteKitIcon } from "./app/components/atoms/icons/SvelteKitIcon";
+import { RemixIcon } from "./app/components/atoms/icons/RemixIcon";
+import { AstroIcon } from "./app/components/atoms/icons/AstroIcon";
+import { BlitzJSIcon } from "./app/components/atoms/icons/BlitzJSIcon";
+import { WebpackIcon } from "./app/components/atoms/icons/WebpackIcon";
+import { ParcelIcon } from "./app/components/atoms/icons/ParcelIcon";
+import { RollupIcon } from "./app/components/atoms/icons/RollupIcon";
+import { EsBuildIcon } from "./app/components/atoms/icons/EsBuildIcon";
+import { ViteIcon } from "./app/components/atoms/icons/ViteIcon";
+import { NodeIcon } from "./app/components/atoms/icons/NodeIcon";
+import { DenoIcon } from "./app/components/atoms/icons/DenoIcon";
+import { StitchesIcon } from "./app/components/atoms/icons/StitchesIcon";
+import { StyledComponentsIcon } from "./app/components/atoms/icons/StyledComponentsIcon";
+import { EmotionIcon } from "./app/components/atoms/icons/EmotionIcon";
+import { JestIcon } from "./app/components/atoms/icons/JestIcon";
+import { TestingLibraryIcon } from "./app/components/atoms/icons/TestingLibraryIcon";
+import { VitestIcon } from "./app/components/atoms/icons/VitestIcon";
+import { ECMAScriptTextIcon } from "./app/components/atoms/icons/ECMAScriptTextIcon";
+import { CypressIcon } from "./app/components/atoms/icons/CypressIcon";
+import { PlaywrightIcon } from "./app/components/atoms/icons/PlaywrightIcon";
+import { PuppeteerIcon } from "./app/components/atoms/icons/PuppeteerIcon";
+import { VoteSection } from "./app/components/molecules/VoteSection";
+import { FirebaseIcon } from "./app/components/atoms/icons/FirebaseIcon";
+import { SupabaseIcon } from "./app/components/atoms/icons/SupabaseIcon";
+import { AirtableIcon } from "./app/components/atoms/icons/AirtableIcon";
+import { AmplifyIcon } from "./app/components/atoms/icons/AmplifyIcon";
+import { MongoIcon } from "./app/components/atoms/icons/MongoIcon";
+import { ChakraUiIcon } from "./app/components/atoms/icons/ChakraUiIcon";
+import { MaterialUiIcon } from "./app/components/atoms/icons/MaterialUiIcon";
+import { NextUiIcon } from "./app/components/atoms/icons/NextUiIcon";
+import { AntDesingIcon } from "./app/components/atoms/icons/AntDesingIcon";
+import { DaisyUiIcon } from "./app/components/atoms/icons/DaisyUiIcon";
+import { ReactSemanticIcon } from "./app/components/atoms/icons/ReactSemanticIcon";
+import { VerselIcon } from "./app/components/atoms/icons/VerselIcon";
+import { NetlifyIcon } from "./app/components/atoms/icons/NetlifyIcon";
+import { RenderIcon } from "./app/components/atoms/icons/RenderIcon";
+import { AWSIcon } from "./app/components/atoms/icons/AWSIcon";
+import { AzureIcon } from "./app/components/atoms/icons/AzureIcon";
+import { GCloudIcon } from "./app/components/atoms/icons/GCloudIcon";
 
 export const firstSection = [
   {
@@ -89,7 +88,7 @@ export const secondSection = [
   {
     name: "Hapi",
     element: <HapiIcon />,
-  }
+  },
 ];
 
 export const thirdSection = [
@@ -116,7 +115,7 @@ export const thirdSection = [
   {
     name: "BlitzJS",
     element: <BlitzJSIcon />,
-  }
+  },
 ];
 
 export const fourthSection = [
@@ -139,7 +138,7 @@ export const fourthSection = [
   {
     name: "Vite",
     element: <ViteIcon />,
-  }
+  },
 ];
 
 export const fifthSection = [
@@ -150,7 +149,7 @@ export const fifthSection = [
   {
     name: "Deno",
     element: <DenoIcon />,
-  }
+  },
 ];
 
 export const sixthSection = [
@@ -165,7 +164,7 @@ export const sixthSection = [
   {
     name: "Emotion",
     element: <EmotionIcon />,
-  }
+  },
 ];
 
 export const seventhSection = [
@@ -180,22 +179,22 @@ export const seventhSection = [
   {
     name: "Vitest",
     element: <VitestIcon />,
-  }
+  },
 ];
 
 export const EighthSection = [
-   {
+  {
     name: "Cypress",
     element: <CypressIcon />,
-   },
-   {
+  },
+  {
     name: "Playwright",
     element: <PlaywrightIcon />,
-   },
-   {
+  },
+  {
     name: "Puppeteer",
     element: <PuppeteerIcon />,
-   }
+  },
 ];
 export const ninthSection = [
   {
@@ -218,67 +217,64 @@ export const ninthSection = [
     name: "Mongo",
     element: <MongoIcon />,
   },
-
 ];
 export const tenthSection = [
   {
     name: "Chakra UI",
-    element: <ChakraUiIcon />
+    element: <ChakraUiIcon />,
   },
   {
     name: "Material UI",
-    element: <MaterialUiIcon />
+    element: <MaterialUiIcon />,
   },
   {
     name: "Next UI",
-    element: <NextUiIcon />
+    element: <NextUiIcon />,
   },
   {
     name: "Ant Design",
-    element: <AntDesingIcon />
+    element: <AntDesingIcon />,
   },
   {
     name: "Daisy UI",
-    element: <DaisyUiIcon />
+    element: <DaisyUiIcon />,
   },
   {
     name: "React Semantic UI",
-    element: <ReactSemanticIcon />
+    element: <ReactSemanticIcon />,
   },
-]
+];
 
 export const eleventhSection = [
   {
     name: "Versel",
-    element: <VerselIcon />
+    element: <VerselIcon />,
   },
   {
     name: "Netlify",
-    element: <NetlifyIcon />
+    element: <NetlifyIcon />,
   },
   {
     name: "Render",
-    element: <RenderIcon />
+    element: <RenderIcon />,
   },
   {
     name: "AWS",
-    element: <AWSIcon />
+    element: <AWSIcon />,
   },
   {
     name: "Azure",
-    element: <AzureIcon />
-    
+    element: <AzureIcon />,
   },
   {
     name: "Google Cloud",
-    element: <GCloudIcon />
+    element: <GCloudIcon />,
   },
-]
+];
 
 export const extraSection = [
   {
     name: "Nullish Coalescing Operator",
     element: <ECMAScriptTextIcon />,
-  }
-  
+  },
 ];
