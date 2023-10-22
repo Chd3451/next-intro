@@ -1,7 +1,7 @@
-import { Header } from "./components/Header";
-import { SecondaryTitle } from "./components/SecondaryTitle";
-import { VoteSection } from "./components/VoteSection";
-import { Footer } from "./components/Footer";
+import { Header } from "./components/organisms/Header";
+import { SecondaryTitle } from "./components/atoms/SecondaryTitle";
+import { VoteSection } from "./components/molecules/VoteSection";
+import { Footer } from "./components/organisms/Footer";
 
 import {
   extraSection,
@@ -15,9 +15,8 @@ import {
   EighthSection,
   ninthSection,
   tenthSection,
-  eleventhSection, 
+  eleventhSection,
 } from "@/sectionsData";
-
 
 export default function Home() {
   return (

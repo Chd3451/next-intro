@@ -1,5 +1,5 @@
 import React from "react";
-import { VoteButton } from "./VoteButton";
+import { VoteButton } from "../atoms/VoteButton";
 
 export const VoteSection = ({ section }) => {
   return (
@@ -14,4 +14,3 @@ export const VoteSection = ({ section }) => {
     </ul>
   );
 };
-
