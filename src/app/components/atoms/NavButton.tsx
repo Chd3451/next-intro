@@ -1,13 +1,13 @@
 import React from "react";
 
-export const NavButton = ({ borderColor, buttonBg, textColor, buttonLabel }) => {
+export const NavButton = (props: { borderColor: string, buttonBg: string, textColor: string, buttonLabel: string }) => {
   return (
-    <button className={`${buttonBg} border-2 ${borderColor} rounded-lg mx-2`}>
+    <button className={`${props.buttonBg} border-2 ${props.borderColor} rounded-lg mx-2`}>
       <a
         href="/#"
-        className={`py-3 text-base font-semibold px-7 ${textColor} hover:opacity-60`}
+        className={`py-3 text-base font-semibold px-7 ${props.textColor} hover:opacity-60`}
       >
-        {buttonLabel}
+        {props.buttonLabel}
       </a>
     </button>
   );

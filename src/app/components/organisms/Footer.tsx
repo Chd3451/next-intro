@@ -1,4 +1,3 @@
-import { FooterLink } from "../atoms/FooterLink";
 import { FooterContent } from "../molecules/FooterContent";
 
 export function Footer() {

@@ -10,8 +10,8 @@ export const SupabaseIcon = () => {
         <path d="M157.533 346.517C157.533 353.411 163.119 359 170.011 359C173.706 359 177.027 357.393 179.311 354.839L179.803 354.285L275.202 225.308H180.87L157.985 343.089L157.924 343.405C157.668 344.4 157.533 345.443 157.533 346.517Z" fill="url(#paint0_linear)"></path>
         <defs>
             <linearGradient id="paint0_linear" x1="236" y1="237" x2="167" y2="359" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#23915F"></stop>
-                <stop offset="1" stop-color="#3ECF8E" stop-opacity="0"></stop>
+                <stop stopColor="#23915F"></stop>
+                <stop offset="1" stopColor="#3ECF8E" stopOpacity="0"></stop>
             </linearGradient>
         </defs>
     </svg>

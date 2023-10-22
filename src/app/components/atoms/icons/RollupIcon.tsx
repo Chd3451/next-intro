@@ -13,11 +13,11 @@ export const RollupIcon = () => {
           gradientTransform="matrix(1 0 0 -1 0 -170)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#ff6533"></stop>
-          <stop offset="0.157" stop-color="#ff5633"></stop>
-          <stop offset="0.434" stop-color="#ff4333"></stop>
-          <stop offset="0.714" stop-color="#ff3733"></stop>
-          <stop offset="1" stop-color="#f33"></stop>
+          <stop offset="0" stopColor="#ff6533"></stop>
+          <stop offset="0.157" stopColor="#ff5633"></stop>
+          <stop offset="0.434" stopColor="#ff4333"></stop>
+          <stop offset="0.714" stopColor="#ff3733"></stop>
+          <stop offset="1" stopColor="#f33"></stop>
         </linearGradient>
         <linearGradient
           id="b"
@@ -28,8 +28,8 @@ export const RollupIcon = () => {
           gradientTransform="matrix(1 0 0 -1 0 -170)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#bf3338"></stop>
-          <stop offset="1" stop-color="#f33"></stop>
+          <stop offset="0" stopColor="#bf3338"></stop>
+          <stop offset="1" stopColor="#f33"></stop>
         </linearGradient>
         <linearGradient
           id="c"
@@ -54,8 +54,8 @@ export const RollupIcon = () => {
           gradientTransform="matrix(1 0 0 -1 0 -170)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#fbb040"></stop>
-          <stop offset="1" stop-color="#fb8840"></stop>
+          <stop offset="0" stopColor="#fbb040"></stop>
+          <stop offset="1" stopColor="#fb8840"></stop>
         </linearGradient>
         <linearGradient
           id="f"
@@ -66,8 +66,8 @@ export const RollupIcon = () => {
           gradientTransform="matrix(1 0 0 -1 0 -170)"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#fff"></stop>
-          <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
+          <stop offset="0" stopColor="#fff"></stop>
+          <stop offset="1" stopColor="#fff" stopOpacity="0"></stop>
         </linearGradient>
       </defs>
       <title>file_type_rollup</title>

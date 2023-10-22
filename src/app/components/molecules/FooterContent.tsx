@@ -1,7 +1,7 @@
 import React from "react";
 import { FooterLink } from "../atoms/FooterLink";
 
-export const FooterContent = ({ footerLinks }) => {
+export const FooterContent = (props: { footerLinks: Array<string> }) => {
   return (
     <div className="">
       <div className="flex justify-center">
@@ -23,7 +23,7 @@ export const FooterContent = ({ footerLinks }) => {
           </picture>
         </a>
       </div>
-      {footerLinks.map(link => <FooterLink key={link} linkText={link} />)}
+      {props.footerLinks.map(link => <FooterLink key={link} linkText={link} />)}
     </div>
   );
 };

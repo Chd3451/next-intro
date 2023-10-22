@@ -1,10 +1,10 @@
 import React from "react";
 import { NavButton } from "../atoms/NavButton";
 
-export const HeaderContent = ({ headerTitle }) => {
+export const HeaderContent = (props: { headerTitle: string }) => {
   return (
     <>
-      <h2 className="text-black text-xl font-bold">{headerTitle}</h2>
+      <h2 className="text-black text-xl font-bold">{props.headerTitle}</h2>
       <div className="flex justify-between items-center">
         <NavButton
           buttonLabel="Sign In"
